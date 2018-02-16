@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">OSForms-android</string>
     <string name="password">Password</string>
+    <string name="email">Email</string>
 </resources>
