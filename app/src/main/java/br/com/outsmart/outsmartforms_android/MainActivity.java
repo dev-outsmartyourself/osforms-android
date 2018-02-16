@@ -20,6 +20,5 @@ public class MainActivity extends AppCompatActivity {
         form.addView(new EmailField(this));
         form.addView(new PasswordField(this));
         mainContainer.addView(form);
-
     }
 }
