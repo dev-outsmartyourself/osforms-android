@@ -8,4 +8,8 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="BaseForm">
+        <item name="backgroundColor">@color/colorPrimary</item>
+    </style>
+
 </resources>
