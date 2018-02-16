@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.FrameLayout;
 
+import br.com.outsmart.osforms_android.EmailField;
 import br.com.outsmart.osforms_android.Form;
 
 public class MainActivity extends AppCompatActivity {
@@ -15,8 +16,11 @@ public class MainActivity extends AppCompatActivity {
         FrameLayout mainContainer = findViewById(R.id.main_container);
 
         Form form = new Form(this);
-        form.add(new EmailField());
-        form.add(new  PasswordField());
+        form.addView(new EmailField(this));
+        form.addView(new EmailField(this));
+
+
+        //form.add(new  PasswordField());
 
 
 
